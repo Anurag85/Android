@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-configure",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-configure",
+        "spec": "/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-configure",
+        "type": "directory"
+      },
+      "/Users/Anurag/Documents/Android/AndroidApp"
+    ]
+  ],
+  "_from": "../BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-configure",
+  "_id": "cordova-plugin-bbd-configure@1.1.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-bbd-configure",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-configure",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-configure",
+    "spec": "/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-configure",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:../BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-configure",
+  "_shasum": "7fd3b23ff144ccd2f7c0bbbae7acb4f7679d330d",
+  "_shrinkwrap": null,
+  "_spec": "/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-configure",
+  "_where": "/Users/Anurag/Documents/Android/AndroidApp",
+  "author": "",
+  "dependencies": {},
+  "description": "The BBD Cordova Configure plugin is used to properly point BBD Cordova plugins to BlackBerry Dynamics SDKs for iOS and Android.",
+  "devDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "name": "cordova-plugin-bbd-configure",
+  "optionalDependencies": {},
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "readme": "BlackBerry Dynamics Cordova Configure plugin\n============================================\n> The Configure plugin is a special helper plugin used to configure the\n> BlackBerry Dynamics Base plugin.\n\nLocation\n========\n`BlackBerry_Dynamics_SDK_for_Cordova_<version>/plugins/cordova-plugin-bbd-configure`\n\nUsage\n=====\nSee the readme file of the BlackBerry Dynamics Cordova Base plugin for usage\ninstructions.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "name": "cordova-plugin-bbd-configure",
+    "version": "1.1.0",
+    "private": true
+  },
+  "version": "1.1.0"
+}

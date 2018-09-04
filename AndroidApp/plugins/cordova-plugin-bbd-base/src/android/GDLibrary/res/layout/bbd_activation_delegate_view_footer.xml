@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) Visto Corporation dba Good Technology, 2015. All Rights Reserved. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:descendantFocusability="afterDescendants"
+              android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+
+        <com.good.gd.widget.GDTextView
+            android:id="@+id/activationKeyLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/adv_all_controls_marginLeft"
+            android:autoLink="web"
+            android:background="@drawable/bbd_text_view_background_selector"
+            android:focusable="true"
+            android:textColor="@color/bbd_blue"
+            android:textSize="@dimen/easy_activation_elements_text_size"/>
+    </LinearLayout>
+</LinearLayout>

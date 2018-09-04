@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) Visto Corporation dba Good Technology, 2014. All Rights Reserved. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <include layout="@layout/bbd_common_background" />
+
+    <RelativeLayout
+            android:id="@+id/bbd_block_view_UI"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ProgressBar
+                android:id="@+id/COM_GOOD_GD_BLOCK_VIEW_PROGRESSBAR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:indeterminateDrawable="@drawable/gd_progress_bar" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <include layout="@layout/bbd_common_header" />
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".60">
+
+                <LinearLayout
+                    android:layout_width="@dimen/easy_activation_login_elements_container_tablets"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:baselineAligned="false"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp">
+
+                    <com.good.gd.widget.GDTextView
+                        android:id="@+id/COM_GOOD_GD_BLOCK_VIEW_TITLE_VIEW"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="34dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="18sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/bbd_dark_grey"
+                        android:textStyle="bold" />
+
+                    <com.good.gd.widget.GDTextView
+                        android:id="@+id/COM_GOOD_GD_BLOCK_VIEW_MESSAGE_VIEW"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="start"
+                        android:textSize="18sp"
+                        android:textColor="@color/bbd_dark_grey" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.good.gd.widget.GDTextView
+                            android:id="@+id/gd_ok_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/bbd_text_view_background_selector"
+                            android:textColor="@color/bbd_blue"
+                            android:textSize="18sp" />
+
+                        <com.good.gd.widget.GDTextView
+                            android:id="@+id/gd_unlock_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/bbd_text_view_background_selector"
+                            android:textColor="@color/bbd_blue"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:background="@android:color/transparent" />
+
+                    <com.good.gd.widget.GDTextView
+                        android:id="@+id/COM_GOOD_GD_BLOCK_VIEW_CUSTOM_MESSAGE_VIEW"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginEnd="3dp"
+                        android:scrollbars="vertical"
+                        android:textSize="18sp"
+                        android:focusable="true"
+                        android:textColor="@color/bbd_dark_grey" />
+                    <com.good.gd.widget.GDTextView
+                        android:id="@+id/gd_mdm_activation_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bbd_text_view_background_selector"
+                        android:layout_marginBottom="60dp"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/bbd_blue"
+                        android:textSize="18sp"
+                        android:focusable="true"
+                        android:visibility="invisible" />
+                </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <include layout="@layout/bbd_bottom_line" />
+</merge>

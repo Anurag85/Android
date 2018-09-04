@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-httprequest",
+  "version": "1.1.0",
+  "description": "HttpRequest plugin is used send HTTP requests over the internet. It also encapsulates the HTTP response returned from a HttpRequest's send function.",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-httprequest",
+    "version": "1.1.0",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

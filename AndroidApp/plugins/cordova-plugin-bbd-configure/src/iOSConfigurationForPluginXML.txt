@@ -1,0 +1,31 @@
+<!-- iOS -->
+<platform name="ios">
+    <header-file src="src/ios/GDAppDelegate.h" />
+    <source-file src="src/ios/GDAppDelegate.m" />
+    <framework src="GD.framework" />
+    <framework src="LocalAuthentication.framework" />
+    <framework src="CFNetwork.framework" />
+    <framework src="CoreData.framework" />
+    <framework src="CoreTelephony.framework" />
+    <framework src="QuartzCore.framework" />
+    <framework src="Security.framework" />
+    <framework src="MessageUI.framework" />
+    <framework src="SystemConfiguration.framework" />
+    <framework src="MobileCoreServices.framework" />
+    <framework src="CoreGraphics.framework" />
+    <framework src="AssetsLibrary.framework" />
+    <framework src="libz.tbd" />
+    <framework src="libstdc++.tbd" />
+    <framework src="libstdc++.6.0.9.tbd" />
+    <framework src="src/ios/frameworks/BbdBasePlugin.framework" custom="true" />
+    <resource-file src="src/ios/resources/GDAssets.bundle" />
+    <resource-file src="src/ios/resources/LaunchScreen.storyboard" />
+    <resource-file src="src/ios/resources/Images.xcassets" />
+    <resource-file src="src/ios/Entitlements.plist" />
+    <hook type="before_plugin_install" src="scripts/hooks/ios/beforeBasePluginInstall.js" />
+    <hook type="after_plugin_install" src="scripts/hooks/ios/afterBasePluginInstall.js" />
+    <hook type="after_platform_update" src="scripts/hooks/ios/afterPlatformUpdate.js" />
+    <hook type="before_prepare" src="scripts/hooks/ios/beforePrepare.js" />
+    <hook type="after_prepare" src="scripts/hooks/ios/afterPrepareFixChanges.js" />
+    <hook type="before_compile" src="scripts/hooks/ios/beforeCompile.js" />
+</platform>

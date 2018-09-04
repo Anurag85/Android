@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-bbd-httprequest"
+        version="1.1.0">
+
+  <name>HttpRequest Plugin</name>
+
+  <description>The HttpRequest plugin is used send HTTP requests over the internet. It also encapsulates the HTTP response returned from a HttpRequest's send function.</description>
+
+  <keywords>cordova,plugin,http,gd</keywords>
+
+  <license>(c) 2018 BlackBerry Limited. All rights reserved.</license>
+
+  <info>
+    The HttpRequest plugin is dependent on the Base plugin, so please make sure the Base plugin is installed correctly.
+  </info>
+
+  <dependency id="cordova-plugin-bbd-base" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-base" version="^2.1.0" />
+
+  <engines>
+    <engine name="cordova-android" version=">=5.1.1"/>
+    <engine name="cordova-ios" version=">=4.0.1"/>
+  </engines>
+
+  <!-- Android -->
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="GDHttpRequest" >
+        <param name="android-package" value="com.good.gd.cordova.plugins.GDHttpRequestPlugin"/>
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+
+    <js-module src="assets/www/android/GDHttpRequest.js" name="GDHttpRequestPlugin">
+      <clobbers target="window.plugins.GDHttpRequest" />
+    </js-module>
+
+    <js-module src="assets/www/android/GDCacheController.js" name="GDCacheController">
+      <clobbers target="window.plugins.GDCacheController" />
+    </js-module>
+
+    <lib-file src="src/android/libs/bbd-httprequest.jar"/>
+
+    <hook type="after_plugin_install" src="scripts/hooks/afterPluginInstall.js" />
+  </platform>
+
+  <!-- iOS -->
+  <platform name="ios">
+    <framework src="Security.framework" />
+    <config-file target="config.xml" parent="/*">
+      <feature name="GDHttpRequest">
+        <param name="ios-package" value="GDCHttpRequestPlugin" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+
+    <js-module src="assets/www/ios/GDHttpRequest.js" name="GDHttpRequestPlugin">
+      <clobbers target="window.plugins.GDHttpRequest" />
+    </js-module>
+
+    <js-module src="assets/www/ios/GDCacheController.js" name="GDCacheController">
+      <clobbers target="window.plugins.GDCacheController" />
+    </js-module>
+
+    <framework src="src/ios/frameworks/BbdHttpRequestPlugin.framework" custom="true" />
+
+    <hook type="after_plugin_install" src="scripts/hooks/afterPluginInstall.js" />
+  </platform>
+
+</plugin>

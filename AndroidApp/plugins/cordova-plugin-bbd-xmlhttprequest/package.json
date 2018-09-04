@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-xmlhttprequest",
+  "version": "2.0.0",
+  "description": "XMLHttpRequest plugin is a JavaScript object that provides an easy way to retrieve data from a URL in secure way without having to do a full page refresh.",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-xmlhttprequest",
+    "version": "2.0.0",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

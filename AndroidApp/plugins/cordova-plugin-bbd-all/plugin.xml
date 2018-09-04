@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-bbd-all"
+        version="1.0.2">
+
+  <name>BBD All Plugin</name>
+
+  <description>The BBD All plugin installs all BBD Cordova plugins to the project.</description>
+
+  <keywords>cordova,plugin,all,base,appkinetics,application,storage,filetransfer,httprequest,interappcommunication,mailto,push,serversideservices,specificpolicies,socket,sqlite,tokenhelper,xmlhttprequest</keywords>
+
+  <license>(c) 2018 BlackBerry Limited. All rights reserved.</license>
+
+  <dependency id="cordova-plugin-bbd-base" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-base" version="^2.1.0" />
+  <dependency id="cordova-plugin-bbd-appkinetics" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-appkinetics" version="^1.2.0" />
+  <dependency id="cordova-plugin-bbd-application" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-application" version="^1.1.0" />
+  <dependency id="cordova-plugin-bbd-storage" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-storage" version="^1.2.0" />
+  <dependency id="cordova-plugin-bbd-filetransfer" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-filetransfer" version="^1.2.0" />
+  <dependency id="cordova-plugin-bbd-httprequest" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-httprequest" version="^1.1.0" />
+  <dependency id="cordova-plugin-bbd-interappcommunication" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-interappcommunication" version="^1.1.0" />
+  <dependency id="cordova-plugin-bbd-mailto" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-mailto" version="^1.0.0" />
+  <dependency id="cordova-plugin-bbd-push" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-push" version="^1.1.0" />
+  <dependency id="cordova-plugin-bbd-serversideservices" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-serversideservices" version="^1.1.0" />
+  <dependency id="cordova-plugin-bbd-specificpolicies" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-specificpolicies" version="^1.1.0" />
+  <dependency id="cordova-plugin-bbd-socket" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-socket" version="^1.1.0" />
+  <dependency id="cordova-plugin-bbd-sqlite" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-sqlite" version="^1.1.0" />
+  <dependency id="cordova-plugin-bbd-tokenhelper" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-tokenhelper" version="^1.1.0" />
+  <dependency id="cordova-plugin-bbd-xmlhttprequest" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-xmlhttprequest" version="^2.0.0" />
+
+  <engines>
+    <engine name="cordova-android" version=">=5.1.1"/>
+    <engine name="cordova-ios" version=">=4.0.1"/>
+  </engines>
+
+</plugin>

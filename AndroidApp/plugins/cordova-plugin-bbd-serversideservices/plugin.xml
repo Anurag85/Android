@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-bbd-serversideservices"
+        version="1.1.0">
+
+  <name>ServerSideServices Plugin</name>
+
+  <description>The ServerSideServices plugin provides an ability to use BBD Server Based Services. It returns all the needed information about service in JSON format.</description>
+
+  <keywords>cordova,plugin,serversideservices,gd</keywords>
+
+  <license>(c) 2018 BlackBerry Limited. All rights reserved.</license>
+
+  <info>
+    The ServerSideServices plugin is dependent on the Base plugin, so please make sure the Base plugin is installed correctly.
+  </info>
+
+  <dependency id="cordova-plugin-bbd-base" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-base" version="^2.1.0" />
+
+  <engines>
+    <engine name="cordova-android" version=">=5.1.1"/>
+    <engine name="cordova-ios" version=">=4.0.1"/>
+  </engines>
+
+  <!-- Android -->
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="GDServerSideServices" >
+          <param name="android-package" value="com.good.gd.cordova.plugins.GDServerSideServicesPlugin"/>
+          <param name="onload" value="true" />
+      </feature>
+    </config-file>
+
+    <js-module src="assets/www/android/GDServerSideServices.js" name="GDServerSideServicesPlugin">
+      <clobbers target="window.plugins.GDServerSideServices" />
+    </js-module>
+
+    <lib-file src="src/android/libs/bbd-serversideservices.jar"/>
+
+    <hook type="after_plugin_install" src="scripts/hooks/afterPluginInstall.js" />
+  </platform>
+
+  <!-- iOS -->
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="GDServerSideServices">
+        <param name="ios-package" value="GDServerSideServicesPlugin" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+
+    <js-module src="assets/www/ios/GDServerSideServices.js" name="GDServerSideServicesPlugin">
+      <clobbers target="window.plugins.GDServerSideServices" />
+    </js-module>
+
+    <framework src="src/ios/frameworks/BbdServerSideServicesPlugin.framework" custom="true" />
+
+    <hook type="after_plugin_install" src="scripts/hooks/afterPluginInstall.js" />
+  </platform>
+
+</plugin>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bbd_blue">#35a7dc</color>
+    <color name="bbd_black">#000000</color>
+    <color name="bbd_white">#ffffff</color>
+    <color name="bbd_common_background_color">#fbfbfc</color>
+    <color name="bbd_hint_edit_text_color">#aeb5bb</color>
+    <color name="bbd_transparent_black">#50000000</color>
+    <color name="bbd_light_blue">#91ceeb</color>
+    <color name="bbd_link_color">#3077ff</color>
+    <color name="bbd_dark_grey">#344554</color>
+    <color name="bbd_light_grey">#c6c6c6</color>
+    <!--suppress AndroidLintUnusedResources -->
+    <color name="bbd_grey">#99999999</color>
+    <color name="bbd_background_grey">#c7c9ca</color>
+    <color name="bbd_button_green">#0ae75d</color>
+    <color name="bbd_fingerprint_alert_title_text_color">#DE000000</color>
+    <color name="bbd_fingerprint_alert_content_text_color">#DE000000</color>
+    <color name="bbd_fingerprint_alert_button_text_color">#008DC7</color>
+    <color name="bbd_fingerprint_option_title_text_color">#DE000000</color>
+    <color name="bbd_fingerprint_option_content_text_color">#8A000000</color>
+    <color name="bbd_fingerprint_option_item_text_color">#FA000000</color>
+    <color name="bbd_fingerprint_status_default">#8A000000</color>
+    <color name="bbd_fingerprint_status_ok">#009688</color>
+    <color name="bbd_fingerprint_status_error">#F4511E</color>
+    <color name="bbd_button_pressed_background_color">#33344554</color>
+    <color name="bbd_button_text_color_disabled">#4D213241</color>
+    <color name="bbd_button_focused_background">#cce8f4</color>
+</resources>

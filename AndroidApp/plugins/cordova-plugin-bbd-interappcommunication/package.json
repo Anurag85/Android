@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-interappcommunication",
+  "version": "1.1.0",
+  "description": "InterAppCommunication plugin is used to return information about a service provider application.",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-interappcommunication",
+    "version": "1.1.0",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-all",
+  "version": "1.0.2",
+  "description": "This plugin installs all BBD Cordova plugins to the project.",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-all",
+    "version": "1.0.2",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-specificpolicies",
+  "version": "1.1.0",
+  "description": "SpecificPolicies plugin is used to read application-specific policy from Good Control (GC) console and return it in JSON format.",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-specificpolicies",
+    "version": "1.1.0",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

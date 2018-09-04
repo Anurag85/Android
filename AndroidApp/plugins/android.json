@@ -1,0 +1,70 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-configure": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-appkinetics": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-all": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-bbd-base": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-application": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-storage": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-filetransfer": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-httprequest": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-interappcommunication": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-mailto": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-push": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-serversideservices": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-specificpolicies": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-socket": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-sqlite": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-tokenhelper": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    },
+    "cordova-plugin-bbd-xmlhttprequest": {
+      "PACKAGE_NAME": "com.wellsfargo.internalapps.gd.android"
+    }
+  }
+}

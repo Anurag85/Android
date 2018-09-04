@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-filetransfer",
+  "version": "1.2.0",
+  "description": "FileTransfer plugin that is responsible for downloading/uploaing data over the internet",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-filetransfer",
+    "version": "1.2.0",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

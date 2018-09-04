@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="RtlHardcoded,Overdraw"
+    android:id="@+id/gd_easy_activation_help"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/adv_all_controls_marginLeft"
+    android:background="@color/bbd_common_background_color"
+    android:paddingEnd="@dimen/adv_all_controls_marginRight"
+    android:layout_marginBottom="9dp"
+    android:textColor="@color/bbd_dark_grey"
+    android:textSize="@dimen/easy_activation_elements_text_size" />

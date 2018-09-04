@@ -1,0 +1,21 @@
+<!-- Android -->
+<platform name="android">
+    <framework src="scripts/gradle/gd.gradle" custom="true" type="gradleReference" />
+    <resource-file src="assets/android/settings.json" target="assets/settings.json" />
+    <resource-file src="src/android/resources/drawable-hdpi/com_bbd_default_logo.png" target="res/drawable-hdpi/com_bbd_default_logo.png" />
+    <resource-file src="src/android/resources/drawable-ldpi/com_bbd_default_logo.png" target="res/drawable-ldpi/com_bbd_default_logo.png" />
+    <resource-file src="src/android/resources/drawable-mdpi/com_bbd_default_logo.png" target="res/drawable-mdpi/com_bbd_default_logo.png" />
+    <resource-file src="src/android/resources/drawable-xhdpi/com_bbd_default_logo.png" target="res/drawable-xhdpi/com_bbd_default_logo.png" />
+    <config-file target="AndroidManifest.xml" parent="/*">
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    </config-file>
+    <source-file src="scripts/gradle/gradle.properties" target-dir="src/.." />
+    <lib-file src="src/android/libs/bbd-base.jar"/>
+    <source-file src="src/android/GDLibrary/" target-dir="src/.." />
+    <source-file src="src/android/GDLibrary_BackupSupport/" target-dir="src/.." />
+    <hook type="after_plugin_install" src="scripts/hooks/android/afterBasePluginInstall.js" />
+    <hook type="before_plugin_uninstall" src="scripts/hooks/android/beforeBasePluginRemove.js" />
+    <hook type="after_plugin_add" src="scripts/hooks/android/afterBasePluginAdd.js" />
+    <hook type="before_prepare" src="scripts/hooks/android/beforePrepare.js" />
+    <hook type="before_compile" src="scripts/hooks/android/beforeCompile.js" />
+</platform>

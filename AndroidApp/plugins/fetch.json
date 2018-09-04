@@ -1,0 +1,44 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-inappbrowser": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-inappbrowser@3.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-bbd-configure": {
+    "source": {
+      "type": "local",
+      "path": "/Users/Anurag/Documents/Android/AndroidApp/node_modules/cordova-plugin-bbd-configure"
+    },
+    "is_top_level": true,
+    "variables": {
+      "BBDSDKFORANDROID": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk"
+    }
+  },
+  "cordova-plugin-bbd-all": {
+    "source": {
+      "type": "local",
+      "path": "/Users/Anurag/Documents/Android/AndroidApp/node_modules/cordova-plugin-bbd-all"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-bbd-appkinetics": {
+    "source": {
+      "type": "local",
+      "path": "/Users/Anurag/Documents/Android/AndroidApp/node_modules/cordova-plugin-bbd-appkinetics"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "com.wellsfargo.internalapps.gd.android",
+  "displayName": "HelloWorld",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^6.2.3",
+    "cordova-plugin-bbd-all": "file:../BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-all",
+    "cordova-plugin-bbd-appkinetics": "file:../BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-appkinetics",
+    "cordova-plugin-bbd-configure": "file:///Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-configure",
+    "cordova-plugin-inappbrowser": "^3.0.0",
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-bbd-configure": {
+        "BBDSDKFORANDROID": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk"
+      },
+      "cordova-plugin-bbd-all": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
