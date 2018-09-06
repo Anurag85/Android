@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) Visto Corporation dba Good Technology, 2015. All Rights Reserved. -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--suppress AndroidLintUnusedResources -->
+    <style name="GDUIDefaultThemeEditText">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/gd_ui_shape_edittext_general</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textColorHint">@color/bbd_grey</item>
+    </style>
+
+    <style name="GDUIEditTextCommon">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textColor">@color/bbd_dark_grey</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColorHint">@color/bbd_hint_edit_text_color</item>
+    </style>
+
+    <style name="GDUIRedEditTextBase" parent="GDUIEditTextCommon">
+        <item name="android:background">@drawable/gd_edit_text_gray_background</item>
+    </style>
+
+    <style name="GDUIRedEditText" parent="GDUIRedEditTextBase"/>
+
+    <style name="GDUIEditTextBase" parent="GDUIEditTextCommon">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:minEms">1</item>
+    </style>
+
+    <style name="GDUIEditText" parent="GDUIEditTextBase"/>
+
+    <style name="GDButton.Base" parent="android:Widget.Button">
+        <item name="android:layout_width">@dimen/gd_button_width</item>
+        <item name="android:layout_height">@dimen/gd_button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/gd_button_font_size</item>
+        <item name="android:textColor">@color/bbd_button_text_color</item>
+        <item name="android:background">@drawable/bbd_button_bg</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="GDButton" parent="GDButton.Base"/>
+
+    <style name="GDLargeButton" parent="android:Widget.Button">
+        <item name="android:layout_height">@dimen/gd_button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/gd_button_font_size</item>
+    </style>
+
+    <style name="GDWaitingDialog" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="GDDialogActivity" parent="@android:style/Theme.Holo.Light.Dialog">
+    </style>
+
+    <style name="GDFingerprintAlertTitleText">
+        <item name="android:textColor">@color/bbd_fingerprint_alert_title_text_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|top</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="GDFingerprintAlertContentText">
+        <item name="android:textColor">@color/bbd_fingerprint_alert_content_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="GDFingerprintIconText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="GDFingerprintAlertButton" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/bbd_fingerprint_alert_button_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="GDFingerprintOptionTitleText">
+        <item name="android:textColor">@color/bbd_fingerprint_option_title_text_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="GDFingerprintOptionContentText">
+        <item name="android:textColor">@color/bbd_fingerprint_option_content_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="GDFingerprintOptionItemText">
+        <item name="android:textColor">@color/bbd_fingerprint_option_item_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="GDFingerprintToggleButton" parent="android:Widget.Button.Toggle">
+        <item name="android:textColor">@color/bbd_fingerprint_option_item_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="GDProgressBar" parent="android:Widget.ProgressBar" />
+
+    <style name="GDProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/gd_progress_bar_horizontal_in_progress</item>
+        <item name="android:indeterminateDrawable">@drawable/gd_progress_bar_horizontal</item>
+        <item name="android:maxHeight">5dp</item>
+        <item name="android:minHeight">5dp</item>
+    </style>
+
+</resources>

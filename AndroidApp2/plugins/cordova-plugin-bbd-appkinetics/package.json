@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-appkinetics",
+  "version": "1.2.0",
+  "description": "GDAppKinetics provides the functionality of AppKinetics - the ability to securely communicate between applications.",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-appkinetics",
+    "version": "1.2.0",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

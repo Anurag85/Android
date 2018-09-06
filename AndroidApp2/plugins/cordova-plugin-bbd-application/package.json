@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-application",
+  "version": "1.1.0",
+  "description": "The GDApplication object provides access to information that is globally available to any BlackBerry Dynamics Application.",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-application",
+    "version": "1.1.0",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

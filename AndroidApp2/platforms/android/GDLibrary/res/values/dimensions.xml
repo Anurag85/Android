@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adv_all_controls_marginLeft">16dp</dimen>
+    <dimen name="adv_all_controls_marginRight">16dp</dimen>
+      
+    <dimen name="adv_lv_header_marginTop">12dp</dimen>
+    <dimen name="adv_lv_header_marginBottom">8dp</dimen>
+    
+    <dimen name="adv_app_image_width">64dp</dimen>
+    <dimen name="adv_app_image_height">64dp</dimen>
+    <dimen name="adv_app_image_marginTop">16dp</dimen>
+    <dimen name="adv_app_image_marginBottom">16dp</dimen>
+    
+    <dimen name="adv_app_setup_using_marginLeft">24dp</dimen>
+
+    <dimen name="alv_logo_layout_marginLeft">16dp</dimen>
+    <dimen name="alv_logo_layout_marginRight">16dp</dimen>
+    <dimen name="alv_logo_layout_marginTop">38dp</dimen>
+        
+    <dimen name="alv_InstrText_layout_marginTop">9dp</dimen>
+    
+    <dimen name="easy_activation_login_elements_container_tablets">380dp</dimen>
+
+    <dimen name="easy_activation_login_container_top_margin">27dp</dimen>
+
+    <dimen name="easy_activation_login_default_margin">16dp</dimen>
+
+    <dimen name="easy_activation_elements_container_height">48dp</dimen>
+
+    <dimen name="easy_activation_elements_text_size">18sp</dimen>
+
+    <dimen name="gd_button_width">108dp</dimen>
+    <dimen name="gd_button_height">48dp</dimen>
+    <dimen name="gd_button_font_size">15sp</dimen>
+    
+    <dimen name="gd_welcome_logo_width">210dp</dimen>
+    <dimen name="gd_welcome_logo_height">130dp</dimen>
+
+    <dimen name="gd_certificate_width">85dp</dimen>
+    <dimen name="gd_certificate_height">85dp</dimen>
+
+    <dimen name="gd_info_dialog_text_vertical_padding">20dp</dimen>
+    <dimen name="gd_info_dialog_padding">8dp</dimen>
+
+    <dimen name="gd_spinner_top_margin">113dp</dimen>
+
+
+</resources>

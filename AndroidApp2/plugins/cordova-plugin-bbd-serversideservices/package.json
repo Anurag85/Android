@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-serversideservices",
+  "version": "1.1.0",
+  "description": "ServerSideServices plugin provides ability to use BBD Server Based Serveices. It returns all the needed information about service in JSON format.",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-serversideservices",
+    "version": "1.1.0",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

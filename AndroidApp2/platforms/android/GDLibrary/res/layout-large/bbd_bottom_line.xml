@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) Visto Corporation dba Good Technology, 2014. All Rights Reserved. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_gravity="bottom"
+              android:layout_marginTop="4dp"
+              android:layout_alignParentBottom="true"
+              tools:ignore="ObsoleteLayoutParam">
+
+    <com.good.gd.widget.GDTextView
+            android:id="@+id/gd_bottom_line_action_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/bbd_text_view_background_selector"
+            android:textColor="@color/bbd_blue"
+            android:layout_marginBottom="4dp"
+            android:focusable="true"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:visibility="gone" />
+
+    <View
+            android:id="@+id/gd_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/bbd_blue" />
+
+    <RelativeLayout
+            android:id="@+id/gd_bottom_margin"
+            android:layout_width="match_parent"
+            android:background="@color/bbd_common_background_color"
+            android:layout_height="75dp">
+
+        <ImageView
+                android:id="@+id/gd_secure_logo"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="24dp"
+                android:src="@drawable/secured_bbd_logo_phone"
+                android:contentDescription="@null" />
+
+    </RelativeLayout>
+</LinearLayout>

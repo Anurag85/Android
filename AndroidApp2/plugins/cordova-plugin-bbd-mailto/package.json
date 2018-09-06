@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-mailto",
+  "version": "1.0.0",
+  "description": "Adds possibility to send emails with attachments",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-mailto",
+    "version": "1.0.0",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

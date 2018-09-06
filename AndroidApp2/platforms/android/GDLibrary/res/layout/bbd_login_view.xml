@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) Visto Corporation dba Good Technology, 2011. All Rights Reserved. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/bbd_common_background" />
+
+    <LinearLayout
+            android:id="@+id/bbd_login_view_UI"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <include layout="@layout/bbd_common_header" />
+
+        <include layout="@layout/bbd_login_view_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/easy_activation_login_default_margin"
+            android:layout_marginEnd="@dimen/easy_activation_login_default_margin"
+            />
+
+        <com.good.gd.widget.GDEditText
+                android:id="@+id/COM_GOOD_GD_LOGIN_VIEW_PASSWORD_FIELD"
+                style="@style/GDUIRedEditText"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/easy_activation_elements_container_height"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:layout_marginStart="@dimen/easy_activation_login_default_margin"
+                android:layout_marginEnd="@dimen/easy_activation_login_default_margin"
+                android:imeOptions="actionNext"
+                android:nextFocusForward="@+id/COM_GOOD_GD_EPROV_ACCESS_BUTTON"
+                android:nextFocusDown="@+id/COM_GOOD_GD_EPROV_ACCESS_BUTTON"
+                android:nextFocusRight="@+id/COM_GOOD_GD_EPROV_ACCESS_BUTTON"/>
+
+        <Button
+            android:id="@+id/COM_GOOD_GD_EPROV_ACCESS_BUTTON"
+            style="@style/GDButton"
+            android:layout_gravity="end"
+            android:layout_marginEnd="14dp"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:nextFocusDown="@+id/gd_bottom_line_action_label"
+            android:nextFocusForward="@+id/gd_bottom_line_action_label"
+            android:stateListAnimator="@null" />
+
+    </LinearLayout>
+
+    <include layout="@layout/bbd_bottom_line"/>
+</merge>

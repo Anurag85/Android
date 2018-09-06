@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-push",
+  "version": "1.1.0",
+  "description": "Push plugin encapsulates the response returned from the GDPush class.",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-push",
+    "version": "1.1.0",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

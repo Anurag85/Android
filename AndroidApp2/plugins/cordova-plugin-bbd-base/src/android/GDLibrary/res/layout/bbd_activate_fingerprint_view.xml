@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright Blackberry Corp., 2015. All Rights Reserved. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bbd_common_background_color">
+
+        <LinearLayout
+            android:id="@+id/bbd_activate_fingerprint_view_UI"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+            <ImageView
+                android:id="@+id/COM_GOOD_GD_ACTIVATE_FINGERPRINT_VIEW_BACK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/gd_back"
+                android:contentDescription="@android:string/cancel"
+                android:focusable="true"
+                android:background="@drawable/bbd_text_view_background_selector">
+            <requestFocus/>
+            </ImageView>
+            <TextView
+                android:id="@+id/COM_GOOD_GD_ACTIVATE_FINGERPRINT_VIEW_TITLE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="38dp"
+                style="@style/GDFingerprintOptionTitleText"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/bbd_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/bbd_blue" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="72dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/COM_GOOD_GD_ACTIVATE_FINGERPRINT_VIEW_TEXT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/GDFingerprintOptionContentText" />
+
+                <TextView
+                    android:id="@+id/toggle_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    style="@style/GDFingerprintOptionItemText"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/toggle_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:focusable="true"
+                    android:nextFocusForward="@+id/COM_GOOD_GD_ACTIVATE_FINGERPRINT_VIEW_BACK"
+                    android:background="@drawable/bbd_text_view_background_selector"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</merge>

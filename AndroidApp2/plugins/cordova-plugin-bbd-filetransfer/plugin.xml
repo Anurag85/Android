@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-bbd-filetransfer"
+        version="1.2.0">
+
+  <name>FileTransfer Plugin</name>
+
+  <description>The FileTransfer plugin is responsible for downloading/uploading files from/to a remote server.</description>
+
+  <keywords>cordova,plugin,filetransfer,gd</keywords>
+
+  <license>(c) 2018 BlackBerry Limited. All rights reserved.</license>
+
+  <info>
+    The FileTransfer plugin is dependent on Base and Storage plugins, so please make sure they are installed correctly.
+  </info>
+
+  <dependency id="cordova-plugin-bbd-base" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-base" version="^2.1.0" />
+  <dependency id="cordova-plugin-bbd-storage" url="/Users/Anurag/Documents/Android/BlackBerry_Dynamics_SDK_for_Cordova_v4.0.0.182/plugins/cordova-plugin-bbd-storage" version="^1.2.0" />
+
+  <engines>
+    <engine name="cordova-android" version=">=5.1.1"/>
+    <engine name="cordova-ios" version=">=4.0.1"/>
+  </engines>
+
+  <!-- Android -->
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="GDFileTransfer" >
+        <param name="android-package" value="com.good.gd.cordova.plugins.GDFileTransferPlugin"/>
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+
+    <js-module src="assets/www/android/GDFileTransfer.js" name="FileTransfer">
+      <clobbers target="window.FileTransfer" />
+    </js-module>
+
+    <js-module src="assets/www/android/GDFileUploadOptions.js" name="FileUploadOptions">
+      <clobbers target="window.FileUploadOptions" />
+    </js-module>
+
+    <lib-file src="src/android/libs/bbd-filetransfer.jar"/>
+
+    <hook type="after_plugin_install" src="scripts/hooks/afterPluginInstall.js" />
+  </platform>
+
+  <!-- iOS -->
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="GDFileTransfer">
+        <param name="ios-package" value="GDCFileTransferPlugin" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+
+    <js-module src="assets/www/ios/GDFileTransfer.js" name="FileTransfer">
+      <clobbers target="window.FileTransfer" />
+    </js-module>
+
+    <js-module src="assets/www/ios/GDFileUploadOptions.js" name="FileUploadOptions">
+      <clobbers target="window.FileUploadOptions" />
+    </js-module>
+
+    <framework src="src/ios/frameworks/BbdFileTransferPlugin.framework" custom="true" />
+
+    <hook type="after_plugin_install" src="scripts/hooks/afterPluginInstall.js" />
+  </platform>
+
+</plugin>

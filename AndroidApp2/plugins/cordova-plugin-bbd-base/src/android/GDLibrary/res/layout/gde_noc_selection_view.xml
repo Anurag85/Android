@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) Visto Corporation dba Good Technology, 2014. All Rights Reserved. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="InconsistentLayout">
+
+    <include layout="@layout/bbd_common_background" />
+
+    <LinearLayout
+        android:id="@+id/bbde_noc_selection_view_UI"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <include layout="@layout/bbd_common_header" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1">
+
+            <ListView
+                android:id="@+id/List"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/bbd_light_grey"
+                android:cacheColorHint="#00000000"
+                android:dividerHeight="1dp"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bbd_light_grey"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/COM_GOOD_GD_GDE_NOC_SELECTION_VIEW_CANCEL_BUTTON"
+                style="@style/GDButton"
+                android:layout_gravity="end"
+                android:layout_marginEnd="14dp"
+                android:enabled="false" />
+
+            <Button
+                android:id="@+id/COM_GOOD_GD_GDE_NOC_SELECTION_VIEW_OK_BUTTON"
+                style="@style/GDButton"
+                android:layout_gravity="end"
+                android:layout_marginEnd="14dp"
+                android:enabled="false" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@android:color/transparent" />
+
+        <include layout="@layout/bbd_bottom_line" />
+    </LinearLayout>
+</merge>

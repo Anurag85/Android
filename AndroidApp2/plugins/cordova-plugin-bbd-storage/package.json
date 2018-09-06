@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-storage",
+  "version": "1.2.0",
+  "description": "Storage plugin in an interface representing a secure file system and secure storage.",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-storage",
+    "version": "1.2.0",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

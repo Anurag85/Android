@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-bbd-socket",
+  "version": "1.1.0",
+  "description": "Socket plugin implements the secure Socket communications APIs.",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "name": "cordova-plugin-bbd-socket",
+    "version": "1.1.0",
+    "private": true
+  },
+  "author": "",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "plugins": [],
+  "devDependencies": {},
+  "dependencies": {}
+}

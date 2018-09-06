@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest android:versionCode="1" android:versionName="1.0" package="org.apache.cordova" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="25" />
+</manifest>
