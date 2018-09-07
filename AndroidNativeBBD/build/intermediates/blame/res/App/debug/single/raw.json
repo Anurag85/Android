@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_nl",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_nl"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_da",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_da"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_pt_br",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_pt_br"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_ja",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_ja"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/gd_lib_version.txt",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/gd_lib_version.txt"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_pt_pt",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_pt_pt"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_es",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_es"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_fr",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_fr"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_it",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_it"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_en",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_en"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_zh_cn",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_zh_cn"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_ko",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_ko"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_sv",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_sv"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/raw/localizable_strings_de",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/raw/localizable_strings_de"
+    }
+]

@@ -1,0 +1,12 @@
+Important Build Notes - 
+
+This project relies on the android support v7 library project AppCompat 
+
+The Android Support Library can be downloaded using the Android SDK Manager
+
+The AppCompat project can be found in ROOT_OF_ANDROID_SDK/extras/android/support/v7/appcompat
+
+This project must be added as a Library project to build this project
+
+AppCompat allows the Android ActionBar and Associated Themes and Styles to be used on pre-API level 14 devices
+

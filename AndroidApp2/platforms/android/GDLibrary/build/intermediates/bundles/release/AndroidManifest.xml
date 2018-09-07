@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.good.gd"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <!-- suppress UnusedAttribute -->
+    <application android:supportsRtl="false" >
+
+        <!-- GD Activity, displays GD UI e.g. Provisioning, unlock etc -->
+        <activity
+            android:name="com.good.gd.ui.GDInternalActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- GD Activity for controlling Runtime Permissions -->
+        <activity android:name="com.good.gd.ui.runtimepermissions_ui.GDRuntimePermissionsControlActivity" />
+
+        <!-- Main GD Service -->
+        <service
+            android:name="com.good.gd.service.GDService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <!-- GD ICC Service -->
+        <service
+            android:name="com.good.gd.service.GDIccService"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="ExportedService" >
+
+            <!--
+             It is correct to ignore the lint warning about the IccService being exported, it is intentionally exported because
+             it is used for AppKinetics between GD applications
+            -->
+            <intent-filter>
+                <action android:name="com.good.gd.intent.action.ACTION_ICC_COMMAND" />
+            </intent-filter>
+
+            <meta-data
+                android:name="GD_ICC_VERSION"
+                android:value="2.4" />
+        </service>
+
+        <!-- GD feature App Kinetics required components -->
+        <activity
+            android:name="com.good.gt.ndkproxy.icc.IccActivity"
+            android:alwaysRetainTaskState="true"
+            android:exported="true"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="com.good.gd.intent.action.ACTION_ICC_COMMAND" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.good.gd.GDIccReceivingActivity"
+            android:alwaysRetainTaskState="true"
+            android:excludeFromRecents="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.good.gd.intent.action.ACTION_ICC_COMMAND" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.good.gd.ui.dialogs.GDDialogActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/GDDialogActivity" />
+    </application>
+
+</manifest>

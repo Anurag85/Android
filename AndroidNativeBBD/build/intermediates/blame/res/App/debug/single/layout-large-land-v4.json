@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-large-land-v4/gde_provision_view.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-large-land-v4/gde_provision_view.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-large-land-v4/bbd_activation_login_view.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-large-land-v4/bbd_activation_login_view.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-large-land-v4/bbd_common_header.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-large-land-v4/bbd_common_header.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-large-land-v4/bbd_learn_more_view.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-large-land-v4/bbd_learn_more_view.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-large-land-v4/bbd_set_password_view.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-large-land-v4/bbd_set_password_view.xml"
+    }
+]

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd_backup_support/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="0dd8044fc58e2c6df72cdef3e4f5668a56eacd83">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/classes_96157e6f469bcf2c19898a45d525d3642879fd46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/4bccf3e20e8aaa679cfa0c1b9cbae67d0a5a9658/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/internal_impl-24.2.1_4b9dcebf28f54fd7ee2e2b4487c318b439bb4e5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/a94e695bb54022f36438442b808f56116d63928f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/classes_bb04d67fa0da3c09870d1d859472ac0ffefad916.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/3015c07b97fee8c2dd5c23c699b8890a35ce8b5b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/classes_2e455bd276b1e0b6e1039d704a6a622a5b82d8c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/9e7d4ed2a4dbebecb8561694e30ecc73f06e1af5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/classes_e8a85a3b326db2b8d689d507be081206ba098d3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/7271cf634eefc66a0471fb01047b8ee9d244a2e5/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/internal_impl-24.2.1_d3acf2ea13754050dc5c0369a8ef003962b9267c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/7271cf634eefc66a0471fb01047b8ee9d244a2e5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/classes_aa486bd1887d97aa871cf545f8bd7840400776ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/classes_42c78f66a9507a76306c0156d12a114794a202c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/libs/gd.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="6dabd467b9e70d259bf656fc5fa3ae216b71d260">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/gd_f3b195f11ae92deaf22cb9f3c74a2797b0a018c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/4bccf3e20e8aaa679cfa0c1b9cbae67d0a5a9658/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/classes_3d2b615bc7e6216d5a3708f0174af8daeb4ccc99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/74cae37da8a0779245841c2581f588b9ea4ca37f/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/internal_impl-24.2.1_1cf6233e1608254bd305a0d07a557946e4efff1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/a94e695bb54022f36438442b808f56116d63928f/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/internal_impl-24.2.1_ed8a0aa930680f7e4828bf33029f6b55c4227144.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/74cae37da8a0779245841c2581f588b9ea4ca37f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/classes_f93579effec2ef81b5a60afdcda061ead3de158d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/fcd76e9b7728050b8fdb1b17cba30fb8ef691e75/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/classes_803d810574b2a282f718b50009c8637cffefd4ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="0b397b625331272ba572f1cacd8ea2c5fc4209d7">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/classes_ebaa2bd9e04b91955fe2ea1451b368a55675fd65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/47a4591bcfc4dddbe8c3308ff1bdf76bd0be0521/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/classes_b5fa6fa61d6f7851a1a0adc650e1bd9b157bc7aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/support-annotations-24.2.1_44ece51703ffb8870c5653270823ab80b142c97b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Anurag/.android/build-cache/3015c07b97fee8c2dd5c23c699b8890a35ce8b5b/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/pre-dexed/App/debug/internal_impl-24.2.1_1d9dee439635068f46a7cb645adb66ca048de375.jar" />
+    </item>
+
+</items>

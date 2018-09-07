@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:background="@color/bbd_background_grey"
+    android:id="@+id/bbd_button_bar"
+    tools:ignore="Overdraw,RelativeOverlap,UselessParent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/gd_cancel_button1"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginStart="16dp"
+            android:textSize="14sp"
+            android:textColor="@color/bbd_dark_grey"
+            android:layout_alignParentStart="true"
+            android:enabled="false"
+            android:background="@drawable/bbd_button_bg"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/gd_ok_button2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginEnd="16dp"
+            android:textSize="14sp"
+            android:textColor="@color/bbd_dark_grey"
+            android:layout_alignParentEnd="true"
+            android:enabled="false"
+            android:background="@drawable/bbd_button_bg">
+            <requestFocus/>
+            </Button>
+
+    </RelativeLayout>
+
+</LinearLayout>

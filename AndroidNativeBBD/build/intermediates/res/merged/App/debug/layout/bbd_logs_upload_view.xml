@@ -1,0 +1,96 @@
+<!-- (c) 2017 BlackBerry Limited. All rights reserved. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/bbd_common_background" />
+
+    <RelativeLayout
+            android:id="@+id/bbd_logs_upload_view_UI"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bbd_common_background_color">
+
+        <include layout="@layout/bbd_common_header" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                android:layout_margin="16dp">
+
+            <TextView
+                    android:id="@+id/bbd_tv_log_uploader_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp" />
+
+            <ProgressBar
+                    android:id="@+id/bbd_progress_uploading_logs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    style="@style/GDProgressBar.Horizontal" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="16dp">
+
+                <TextView
+                        android:id="@+id/bbd_tv_percent_progress"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="start" />
+
+                <TextView
+                        android:id="@+id/bbd_tv_bytes_progress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/bbd_btn_cancel_upload_logs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/bbd_blue"
+                        android:textSize="@dimen/gd_button_font_size"
+                        android:textAllCaps="true"
+                        style="@android:style/Widget.Holo.Button.Borderless" />
+                <Button
+                        android:id="@+id/bbd_btn_change_upload_logs_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/bbd_blue"
+                        android:textSize="@dimen/gd_button_font_size"
+                        android:textAllCaps="true"
+                        style="@android:style/Widget.Holo.Button.Borderless" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/bbd_bottom_line"
+            android:id="@+id/bbd_layout_bottom_line"/>
+
+        <TextView
+            android:id="@+id/bbd_tv_network_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_above="@id/bbd_layout_bottom_line"
+            android:layout_marginBottom="30dp" />
+
+    </RelativeLayout>
+</merge>

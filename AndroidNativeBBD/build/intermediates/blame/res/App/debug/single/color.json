@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_tint_default.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/bbd_button_text_color.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/color/bbd_button_text_color.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_search_url_text.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/color/abc_primary_text_material_light.xml"
+    }
+]

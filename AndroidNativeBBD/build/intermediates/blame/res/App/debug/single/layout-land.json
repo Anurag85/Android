@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/gd_gtwear_activation_button_bar.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/gd_gtwear_activation_button_bar.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/gd_gtwear_wearable_activation_base.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/gd_gtwear_wearable_activation_base.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/gd_gtwear_wearable_setup.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/gd_gtwear_wearable_setup.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/gd_gtwear_setup_stepitem.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/gd_gtwear_setup_stepitem.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/bbd_activation_delegate_view.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/bbd_activation_delegate_view.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/gd_gtwear_wearable_error.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/gd_gtwear_wearable_error.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/gd_gtwear_activation_inprogress_post_validation.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/gd_gtwear_activation_inprogress_post_validation.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/gd_gtwear_activation_inprogress.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/gd_gtwear_activation_inprogress.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/bbd_set_password_view.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/bbd_set_password_view.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/gd_gtwear_wearable_complete.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/gd_gtwear_wearable_complete.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/gde_provision_progress_view.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/gde_provision_progress_view.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/bbd_activation_login_view.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/bbd_activation_login_view.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/gd_gtwear_setup_notification_example.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/gd_gtwear_setup_notification_example.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/bbd_common_header.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/bbd_common_header.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/bbd_button_bar.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/bbd_button_bar.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/bbd_header_base.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/bbd_header_base.xml"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/layout-land/gd_gtwear_activation_user_validation.xml",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/layout-land/gd_gtwear_activation_user_validation.xml"
+    }
+]

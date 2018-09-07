@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bbd_background_grey">#c7c9ca</color>
+    <color name="bbd_black">#000000</color>
+    <color name="bbd_blue">#35a7dc</color>
+    <color name="bbd_button_focused_background">#cce8f4</color>
+    <color name="bbd_button_green">#0ae75d</color>
+    <color name="bbd_button_pressed_background_color">#33344554</color>
+    <color name="bbd_button_text_color_disabled">#4D213241</color>
+    <color name="bbd_common_background_color">#fbfbfc</color>
+    <color name="bbd_dark_grey">#344554</color>
+    <color name="bbd_fingerprint_alert_button_text_color">#008DC7</color>
+    <color name="bbd_fingerprint_alert_content_text_color">#DE000000</color>
+    <color name="bbd_fingerprint_alert_title_text_color">#DE000000</color>
+    <color name="bbd_fingerprint_option_content_text_color">#8A000000</color>
+    <color name="bbd_fingerprint_option_item_text_color">#FA000000</color>
+    <color name="bbd_fingerprint_option_title_text_color">#DE000000</color>
+    <color name="bbd_fingerprint_status_default">#8A000000</color>
+    <color name="bbd_fingerprint_status_error">#F4511E</color>
+    <color name="bbd_fingerprint_status_ok">#009688</color>
+    <color name="bbd_grey">#99999999</color>
+    <color name="bbd_hint_edit_text_color">#aeb5bb</color>
+    <color name="bbd_light_blue">#91ceeb</color>
+    <color name="bbd_light_grey">#c6c6c6</color>
+    <color name="bbd_link_color">#3077ff</color>
+    <color name="bbd_transparent_black">#50000000</color>
+    <color name="bbd_white">#ffffff</color>
+    <dimen name="adv_all_controls_marginLeft">16dp</dimen>
+    <dimen name="adv_all_controls_marginRight">16dp</dimen>
+    <dimen name="adv_app_image_height">64dp</dimen>
+    <dimen name="adv_app_image_marginBottom">16dp</dimen>
+    <dimen name="adv_app_image_marginTop">16dp</dimen>
+    <dimen name="adv_app_image_width">64dp</dimen>
+    <dimen name="adv_app_setup_using_marginLeft">24dp</dimen>
+    <dimen name="adv_lv_header_marginBottom">8dp</dimen>
+    <dimen name="adv_lv_header_marginTop">12dp</dimen>
+    <dimen name="alv_InstrText_layout_marginTop">9dp</dimen>
+    <dimen name="alv_logo_layout_marginLeft">16dp</dimen>
+    <dimen name="alv_logo_layout_marginRight">16dp</dimen>
+    <dimen name="alv_logo_layout_marginTop">38dp</dimen>
+    <dimen name="easy_activation_elements_container_height">48dp</dimen>
+    <dimen name="easy_activation_elements_text_size">18sp</dimen>
+    <dimen name="easy_activation_login_container_top_margin">27dp</dimen>
+    <dimen name="easy_activation_login_default_margin">16dp</dimen>
+    <dimen name="easy_activation_login_elements_container_tablets">380dp</dimen>
+    <dimen name="gd_button_font_size">15sp</dimen>
+    <dimen name="gd_button_height">48dp</dimen>
+    <dimen name="gd_button_width">108dp</dimen>
+    <dimen name="gd_certificate_height">85dp</dimen>
+    <dimen name="gd_certificate_width">85dp</dimen>
+    <dimen name="gd_info_dialog_padding">8dp</dimen>
+    <dimen name="gd_info_dialog_text_vertical_padding">20dp</dimen>
+    <dimen name="gd_spinner_top_margin">113dp</dimen>
+    <dimen name="gd_welcome_logo_height">130dp</dimen>
+    <dimen name="gd_welcome_logo_width">210dp</dimen>
+    <style name="GDButton" parent="GDButton.Base"/>
+    <style name="GDButton.Base" parent="android:Widget.Button">
+        <item name="android:layout_width">@dimen/gd_button_width</item>
+        <item name="android:layout_height">@dimen/gd_button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/gd_button_font_size</item>
+        <item name="android:textColor">@color/bbd_button_text_color</item>
+        <item name="android:background">@drawable/bbd_button_bg</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="GDDialogActivity" parent="@android:style/Theme.Holo.Light.Dialog">
+    </style>
+    <style name="GDFingerprintAlertButton" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/bbd_fingerprint_alert_button_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="GDFingerprintAlertContentText">
+        <item name="android:textColor">@color/bbd_fingerprint_alert_content_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+    <style name="GDFingerprintAlertTitleText">
+        <item name="android:textColor">@color/bbd_fingerprint_alert_title_text_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|top</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+    <style name="GDFingerprintIconText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="GDFingerprintOptionContentText">
+        <item name="android:textColor">@color/bbd_fingerprint_option_content_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+    <style name="GDFingerprintOptionItemText">
+        <item name="android:textColor">@color/bbd_fingerprint_option_item_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="GDFingerprintOptionTitleText">
+        <item name="android:textColor">@color/bbd_fingerprint_option_title_text_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="GDFingerprintToggleButton" parent="android:Widget.Button.Toggle">
+        <item name="android:textColor">@color/bbd_fingerprint_option_item_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">false</item>
+    </style>
+    <style name="GDLargeButton" parent="android:Widget.Button">
+        <item name="android:layout_height">@dimen/gd_button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/gd_button_font_size</item>
+    </style>
+    <style name="GDProgressBar" parent="android:Widget.ProgressBar"/>
+    <style name="GDProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/gd_progress_bar_horizontal_in_progress</item>
+        <item name="android:indeterminateDrawable">@drawable/gd_progress_bar_horizontal</item>
+        <item name="android:maxHeight">5dp</item>
+        <item name="android:minHeight">5dp</item>
+    </style>
+    <style name="GDUIDefaultThemeEditText">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/gd_ui_shape_edittext_general</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textColorHint">@color/bbd_grey</item>
+    </style>
+    <style name="GDUIEditText" parent="GDUIEditTextBase"/>
+    <style name="GDUIEditTextBase" parent="GDUIEditTextCommon">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:minEms">1</item>
+    </style>
+    <style name="GDUIEditTextCommon">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textColor">@color/bbd_dark_grey</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColorHint">@color/bbd_hint_edit_text_color</item>
+    </style>
+    <style name="GDUIRedEditText" parent="GDUIRedEditTextBase"/>
+    <style name="GDUIRedEditTextBase" parent="GDUIEditTextCommon">
+        <item name="android:background">@drawable/gd_edit_text_gray_background</item>
+    </style>
+    <style name="GDWaitingDialog" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/libs"/></dataSet><dataSet config="App"><source path="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/src/App/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/src/debug/jniLibs"/></dataSet><dataSet config="AppDebug"><source path="/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/src/AppDebug/jniLibs"/></dataSet></merger>

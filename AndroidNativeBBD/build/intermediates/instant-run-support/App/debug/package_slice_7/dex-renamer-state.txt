@@ -1,0 +1,4 @@
+#Fri Sep 07 12:05:41 IST 2018
+base.0=/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/transforms/dex/App/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/transforms/dex/App/debug/folders/1000/5/slice_7/classes.dex

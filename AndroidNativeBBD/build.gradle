@@ -1,0 +1,88 @@
+apply plugin: 'com.android.application'
+
+
+buildscript {
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.2'
+    }
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+}
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.0'
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+
+        androidTest {
+            manifest.srcFile 'tests/AndroidManifest.xml'
+            java.srcDirs = ['tests']
+            // Include Android Test Support Library source and assets in test code
+            // automated_test_support_library_path is set in gradle.properties file
+            java.srcDirs += [automated_test_support_library_path + '/src']
+            java.srcDirs += [automated_test_support_library_path + '/src-handheld']
+            assets.srcDirs = [automated_test_support_library_path + '/assets']
+        }
+    }
+
+    defaultConfig {
+        minSdkVersion 21
+        applicationId "com.wellsfargo.internalapps.gd.androidnativebbd"
+        targetSdkVersion 24
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    defaultPublishConfig "AppDebug"
+    publishNonDefault true
+    testBuildType "debug"
+
+    productFlavors {
+        App { }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':GDLibrary')
+    compile project(':GDLibrary_BackupSupport')
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:support-annotations:24.2.1'
+
+    //Test Compile Dependancies are used only when building app for android Automated Tests
+    androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2.1'
+    androidTestCompile 'com.android.support:support-annotations:24.2.1'
+    androidTestCompile 'com.android.support.test:rules:0.4'
+    androidTestCompile 'com.android.support.test:runner:0.4'
+    androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.0.0'
+    androidTestCompile 'com.android.support:support-v4:24.2.1'
+}
+
+

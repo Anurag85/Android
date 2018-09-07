@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Anurag/Documents/Android/Android_Git/AndroidApp2/platforms/android/GDLibrary_BackupSupport/src/main/assets"/><source path="/Users/Anurag/Documents/Android/Android_Git/AndroidApp2/platforms/android/GDLibrary_BackupSupport/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/Anurag/Documents/Android/Android_Git/AndroidApp2/platforms/android/GDLibrary_BackupSupport/src/release/assets"/></dataSet></merger>

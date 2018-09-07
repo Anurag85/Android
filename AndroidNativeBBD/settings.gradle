@@ -1,0 +1,4 @@
+include 'GDLibrary'
+project(':GDLibrary').projectDir = new File('/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd')
+include 'GDLibrary_BackupSupport'
+project(':GDLibrary_BackupSupport').projectDir = new File('/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd_backup_support')

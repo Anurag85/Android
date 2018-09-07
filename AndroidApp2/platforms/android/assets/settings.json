@@ -1,7 +1,7 @@
 {
     "GDLibraryMode": "GDEnterprise",
-    "GDApplicationID": "com.wellsfargo.internalapps.gd.android",
-    "GDApplicationVersion": "1.0.0.0",
+    "GDApplicationID": "com.wellsfargo.internalapps.gd.androidcordovabbd",
+    "GDApplicationVersion": "1.0.0",
     "GDConsoleLogger": [
         "GDFilterErrors_",
         "GDFilterWarnings_",

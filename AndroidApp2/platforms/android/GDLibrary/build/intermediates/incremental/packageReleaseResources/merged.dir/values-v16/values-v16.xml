@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GDButton" parent="GDButton.Base">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="GDUIEditText" parent="GDUIEditTextBase">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="GDUIRedEditText" parent="GDUIRedEditTextBase">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

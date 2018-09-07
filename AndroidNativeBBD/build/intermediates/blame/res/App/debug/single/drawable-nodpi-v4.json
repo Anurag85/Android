@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/drawable-nodpi-v4/gd_edit_text_color_background.9.png",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/drawable-nodpi-v4/gd_edit_text_color_background.9.png"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/drawable-nodpi-v4/gd_edit_text_gray_background.9.png",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/drawable-nodpi-v4/gd_edit_text_gray_background.9.png"
+    },
+    {
+        "merged": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/res/merged/App/debug/drawable-nodpi-v4/gd_edit_text_red_background.9.png",
+        "source": "/Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/res/drawable-nodpi-v4/gd_edit_text_red_background.9.png"
+    }
+]

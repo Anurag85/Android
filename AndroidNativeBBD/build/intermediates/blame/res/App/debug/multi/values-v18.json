@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/build/intermediates/incremental/mergeAppDebugResources/merged.dir/values-v18/values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/res/values-v18/values-v18.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            }
+        ]
+    }
+]

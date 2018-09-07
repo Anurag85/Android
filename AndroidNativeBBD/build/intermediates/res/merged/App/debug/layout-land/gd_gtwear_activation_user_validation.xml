@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bbd_common_background_color"
+    android:orientation="vertical"
+    tools:ignore="Overdraw,UnknownIdInLayout,ButtonStyle,UselessParent">
+
+    <include layout="@layout/gd_gtwear_wearable_activation_base" />
+
+    <TextView
+        android:id="@+id/gd_gtwear_validation_body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gd_gtwear_activation_base"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/bbd_dark_grey"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/gd_gtwear_validation_body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gd_gtwear_validation_body1"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/bbd_dark_grey"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/gd_gtwear_verification_code_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gd_gtwear_validation_body2"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/bbd_dark_grey"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gd_gtwear_activation_button_bar"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/gd_gtwear_button_wrong"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/bbd_gtwear_grey_button_background_selector"
+                android:focusable="true"
+                android:textColor="@color/bbd_black" />
+
+            <Button
+                android:id="@+id/gd_gtwear_button_correct"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bbd_gtwear_green_button_background_selector"
+                android:focusable="true"
+                android:textColor="@color/bbd_black" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/gd_gtwear_activation_button_bar" />
+
+</RelativeLayout>

@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.wellsfargo.internalapps.gd.android;
+package com.wellsfargo.internalapps.gd.androidcordovabbd;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This resource is used by SecureCopyPaste app. Do not remove it. -->
+<!--suppress UnusedResources -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/gd_icon_splash_lock"
+        android:contentDescription="@null"/>
+
+
+</FrameLayout>

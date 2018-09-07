@@ -1,0 +1,179 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:25:1-66:12
+	package
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:26:11-68
+		INJECTED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml
+		INJECTED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:28:11-40
+		INJECTED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml
+		INJECTED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:27:11-34
+		INJECTED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml
+		INJECTED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:25:11-69
+application
+ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:34:5-65:19
+MERGED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:17:5-77:19
+MERGED from [AndroidNativeBBD:GDLibrary_BackupSupport:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd_backup_support/build/intermediates/bundles/default/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] /Users/Anurag/.android/build-cache/9e7d4ed2a4dbebecb8561694e30ecc73f06e1af5/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/Anurag/.android/build-cache/4bccf3e20e8aaa679cfa0c1b9cbae67d0a5a9658/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/Anurag/.android/build-cache/a94e695bb54022f36438442b808f56116d63928f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/Anurag/.android/build-cache/74cae37da8a0779245841c2581f588b9ea4ca37f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/Anurag/.android/build-cache/3015c07b97fee8c2dd5c23c699b8890a35ce8b5b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/Anurag/.android/build-cache/fcd76e9b7728050b8fdb1b17cba30fb8ef691e75/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/Anurag/.android/build-cache/47a4591bcfc4dddbe8c3308ff1bdf76bd0be0521/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /Users/Anurag/.android/build-cache/7271cf634eefc66a0471fb01047b8ee9d244a2e5/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:36:13-45
+	android:supportsRtl
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:17:18-45
+	android:fullBackupContent
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:40:13-62
+	android:allowBackup
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:39:13-39
+	android:icon
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:38:13-49
+	android:theme
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:37:13-58
+	android:name
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:35:13-48
+meta-data#GDApplicationVersion
+ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:41:9-81
+	android:value
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:41:56-78
+	android:name
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:41:20-55
+activity#com.wellsfargo.internalapps.gd.androidnativebbd.Skeleton
+ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:48:9-64:20
+	android:enabled
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:50:17-39
+	android:name
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:49:17-40
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:56:13-63:29
+action#android.intent.action.MAIN
+ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:59:17-69
+	android:name
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:59:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml:62:27-74
+uses-sdk
+INJECTED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:8:5-44
+MERGED from [AndroidNativeBBD:GDLibrary_BackupSupport:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd_backup_support/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] /Users/Anurag/.android/build-cache/9e7d4ed2a4dbebecb8561694e30ecc73f06e1af5/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/Anurag/.android/build-cache/4bccf3e20e8aaa679cfa0c1b9cbae67d0a5a9658/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/Anurag/.android/build-cache/a94e695bb54022f36438442b808f56116d63928f/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/Anurag/.android/build-cache/74cae37da8a0779245841c2581f588b9ea4ca37f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/Anurag/.android/build-cache/3015c07b97fee8c2dd5c23c699b8890a35ce8b5b/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/Anurag/.android/build-cache/fcd76e9b7728050b8fdb1b17cba30fb8ef691e75/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/Anurag/.android/build-cache/47a4591bcfc4dddbe8c3308ff1bdf76bd0be0521/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.1] /Users/Anurag/.android/build-cache/7271cf634eefc66a0471fb01047b8ee9d244a2e5/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.1] /Users/Anurag/.android/build-cache/61895d3a33d1ff9a38d1d177128008e017d18d38/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml
+		INJECTED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml
+		INJECTED from /Users/Anurag/Documents/Android/Android_Git/AndroidNativeBBD/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:15:22-71
+activity#com.good.gd.ui.GDInternalActivity
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:20:9-22:58
+	android:windowSoftInputMode
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:22:13-55
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:21:13-61
+activity#com.good.gd.ui.runtimepermissions_ui.GDRuntimePermissionsControlActivity
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:25:9-109
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:25:19-106
+service#com.good.gd.service.GDService
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:28:9-32:19
+	android:enabled
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:29:13-57
+service#com.good.gd.service.GDIccService
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:35:9-52:19
+	android:enabled
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:38:13-36
+	tools:ignore
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:39:13-43
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:36:13-60
+intent-filter#com.good.gd.intent.action.ACTION_ICC_COMMAND
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:45:13-47:29
+action#com.good.gd.intent.action.ACTION_ICC_COMMAND
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:46:17-87
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:46:25-84
+meta-data#GD_ICC_VERSION
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:49:13-51:39
+	android:value
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:51:17-36
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:50:17-46
+activity#com.good.gt.ndkproxy.icc.IccActivity
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:55:9-63:20
+	android:exported
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:58:13-36
+	android:alwaysRetainTaskState
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:57:13-49
+	android:theme
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:59:13-59
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:56:13-64
+activity#com.good.gd.GDIccReceivingActivity
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:64:9-72:20
+	android:excludeFromRecents
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:67:13-46
+	android:exported
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:68:13-36
+	android:alwaysRetainTaskState
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:66:13-49
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:65:13-62
+activity#com.good.gd.ui.dialogs.GDDialogActivity
+ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:73:9-76:55
+	android:excludeFromRecents
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:75:13-46
+	android:theme
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:76:13-52
+	android:name
+		ADDED from [AndroidNativeBBD:GDLibrary:unspecified] /Users/Anurag/Library/Android/sdk/extras/blackberry/dynamics_sdk/sdk/libs/handheld/gd/build/intermediates/bundles/default/AndroidManifest.xml:74:13-67

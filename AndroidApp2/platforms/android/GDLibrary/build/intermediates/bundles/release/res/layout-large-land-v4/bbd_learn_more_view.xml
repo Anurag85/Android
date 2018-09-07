@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) Visto Corporation dba Good Technology, 2014. All Rights Reserved. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <include layout="@layout/bbd_common_background" />
+
+    <LinearLayout
+        android:id="@+id/bbd_learn_more_view_UI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/bbd_common_header" />
+
+        <LinearLayout
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/bbd_alignment_layout1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15">
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7">
+                <RelativeLayout
+                    tools:ignore="UselessParent"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <com.good.gd.widget.GDTextView
+                        android:id="@+id/gd_learn_more_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/bbd_dark_grey"
+                        android:textSize="@dimen/easy_activation_elements_text_size"
+                        android:textStyle="bold" />
+
+                    <com.good.gd.widget.GDTextView
+                        android:id="@+id/gd_learn_more_details"
+                        android:layout_below="@+id/gd_learn_more_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/bbd_dark_grey"
+                        android:textSize="16sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="end"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="72dp"
+                        tools:ignore="ObsoleteLayoutParam">
+
+                        <Button
+                            android:id="@+id/gd_done_button"
+                            style="@style/GDButton"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_gravity="end" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bbd_alignment_layout2"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15">
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/bbd_bottom_line" />
+</merge>
